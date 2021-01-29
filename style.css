@@ -124,3 +124,72 @@ nav {
 .table1 {
   justify-content: space-around;
 }
+
+/* Here starts the contact form configuration */
+.contactsection {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(68, 66, 66);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 15px;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: whi;
+}
+
+.contactForm {
+  margin-top: 10px;
+  width: 100%;
+  padding-right: 10px;
+  font-weight: 300px;
+  color: rgb(226, 155, 49);
+}
+
+.contactForm textarea {
+  width: 98%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: rgb(138, 105, 105);
+}
+
+.contactForm input {
+  width: 98%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(138, 105, 105);
+}
+
+.btnsubmit {
+  margin-top: 10px;
+  width: 99%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(138, 105, 105);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border-width: 1px;
+  border-style: hidden;
+  color: white;
+}
+
+.btnsubmit:hover {
+  background-color: rgb(14, 55, 133);
+  color: white;
+}

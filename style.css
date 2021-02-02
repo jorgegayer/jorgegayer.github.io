@@ -20,7 +20,13 @@ nav {
   float: right;
   border-radius: 20%;
   margin-top: 0;
-  margin-right: 70px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+body {
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .listlinks {
@@ -73,7 +79,10 @@ nav {
   text-align: right;
   font-family: fantasy;
   letter-spacing: 3px;
-  /* background-color: white; */
+}
+
+.listpresentation li {
+  list-style: none;
 }
 
 .text1 {
